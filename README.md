@@ -2,7 +2,8 @@
 
 ## Instructions
 
-Take 30 minutes and answer the following questions together with your group. Take turns playing around with the code provided in Pry or IRB.
+Take 30 minutes and answer the following questions together with your group.
+Take turns playing around with the code provided in Pry or IRB.
 
 ## Questions
 
@@ -27,7 +28,8 @@ def love_this_veggie?(vegetable)
 end
 ```
 
-3 . How would you select all of the words that start with the letter "a" from the below array?
+3 . How would you select all of the words that start with the letter "a" from
+the below array?
 
 ```ruby
 ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapple"]
@@ -80,33 +82,36 @@ puts best_animal
 9 . How would you `puts` out any and all foods that are delicious?
 
 ```ruby
-foods = {"pie" => "delicious", "broccoli" => "not delicious",
-"carrots" => "not delicious", "apples" => "delicious",
-"peanut butter" => "delicious"}
+foods = {
+  "pie" => "delicious",
+  "broccoli" => "not delicious",
+  "carrots" => "not delicious",
+  "apples" => "delicious",
+  "peanut butter" => "delicious"
+}
 ```
 
-10 . Delete all elements of the `foods` hash that are *not* delicious.
+10 . Delete all elements of the `foods` hash that are _not_ delicious.
 
 11 . What is the return value of this method?
-```ruby
-  character_names = ["Daenerys Targaryen", "Jon Snow" ,"Arya Stark", "Tyrion Lannister", "Sansa Stark", "Cersei Lannister", "Margaery Tyrell"]
 
-  def downcase_all(array_of_strings)
-    array_of_strings.each do |one_string|
-      one_string.downcase
-    end
+```ruby
+character_names = ["Daenerys Targaryen", "Jon Snow" ,"Arya Stark", "Tyrion Lannister", "Sansa Stark", "Cersei Lannister", "Margaery Tyrell"]
+
+def downcase_all(array_of_strings)
+  array_of_strings.each do |one_string|
+    one_string.downcase
   end
+end
 ```
 
 12 . Write a method that `puts` out a random Agent Cooper quote.
 
 ```ruby
-  cooper = {
-      "name": "Dale Bartholomew Cooper",
-      "co-workers": ["Diane", "Sheriff Harry S. Truman"],
-      "favorite_drink": "Coffee",
-      "quotes": ["Damn fine cup of coffee", "Diane...", "This must be where pies go when they die", "That's what you do in a town where a yellow light still means slow down, not go faster.", "Every day, once a day, give yourself a present", "I have no idea where this will lead us, but I have a definite feeling it will be a place both wonderful and strange."]
-  }
+cooper = {
+    "name": "Dale Bartholomew Cooper",
+    "co-workers": ["Diane", "Sheriff Harry S. Truman"],
+    "favorite_drink": "Coffee",
+    "quotes": ["Damn fine cup of coffee", "Diane...", "This must be where pies go when they die", "That's what you do in a town where a yellow light still means slow down, not go faster.", "Every day, once a day, give yourself a present", "I have no idea where this will lead us, but I have a definite feeling it will be a place both wonderful and strange."]
+}
 ```
-
-
