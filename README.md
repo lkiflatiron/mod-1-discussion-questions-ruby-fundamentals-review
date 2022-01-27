@@ -31,14 +31,14 @@ end
 3 . How would you select all of the words that start with the letter "a" from
 the below array?
 
-```ruby
+```rb
 ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapple"]
 ```
 
 4 . Write a method that takes in an argument of a sentence and returns the
 number of words in the sentence
 
-```ruby
+```rb
 word_count("Hi, isn't this a great and interesting sentence??")
  # => 8
 ```
